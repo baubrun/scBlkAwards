@@ -14,7 +14,7 @@ import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai";
 import DrawerPanel from "./DrawerPanel";
 import clsx from "clsx";
 import Routes from "./Routes";
-import logo from "../../media/lairebauxNav.png";
+// import logo from "../../media/lairebauxNav.png";
 import { Link } from "react-router-dom";
 
 
@@ -55,7 +55,7 @@ const Nav = () => {
                 <Link to="/">
                 <img
                 className={classes.logo}
-                  src={logo}
+                  src={require("../../media/lairebauxNav.png")}
                   alt={<Typography variant="h5">LAIREBAUX</Typography>}
                 />
                 </Link>
