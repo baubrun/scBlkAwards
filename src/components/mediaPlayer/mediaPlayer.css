@@ -1,0 +1,16 @@
+.muteBtn {
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+
+.playBtn {
+    /* border: none; */
+    /* background-color: transparent; */
+    color: blue;
+    cursor: pointer;
+    font-size: 3rem;
+    
+}

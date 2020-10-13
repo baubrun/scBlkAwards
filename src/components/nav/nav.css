@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Permanent+Marker&display=swap');
+
+
+/* drawer menu links and text*/
+.MuiTypography-body1 {
+    font-size: 1.3rem !important;
+    font-family: 'Lemonada', cursive !important;
+    font-family: 'Permanent Marker', cursive !important;
+    letter-spacing: 0.1rem !important;
+}
+
