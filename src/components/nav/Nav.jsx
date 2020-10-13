@@ -53,11 +53,12 @@ const Nav = () => {
 
               <Box >
                 <Link to="/">
-                <img
+                {/* <img
                 className={classes.logo}
                   src={require("../../media/lairebauxNav.png")}
                   alt={<Typography variant="h5">LAIREBAUX</Typography>}
-                />
+                /> */}
+                <Typography variant="h5">LAIREBAUX</Typography>
                 </Link>
               </Box>
             </Toolbar>
