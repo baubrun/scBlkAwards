@@ -30,4 +30,3 @@ server/uploads/
 **/ *.env
 server/.env
 server/log
-src/media/
