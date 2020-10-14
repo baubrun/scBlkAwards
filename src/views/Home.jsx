@@ -3,19 +3,26 @@ import mainImg from "../media/lbx-ig-cover-dark.png";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
+import Avatar from '@material-ui/core/Avatar';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   img: {
-    borderRadius: 25,
+    borderRadius: "50%",
     margin: 0,
     objectFit: "contain",
-    width: "100%",
+    // width: "100%",
+    width: 450,
+    height: 450,
   },
   title: {
     fontFamily: "Permanent Marker !important",
     fontSize: 48,
   },
-});
+  large: {
+    width: theme.spacing(100),
+    height: theme.spacing(100),
+  },
+}));
 
 const Home = () => {
   const classes = useStyles();
@@ -39,7 +46,11 @@ const Home = () => {
     </Grid>
     <Grid container justify="center" direction="row">
     <Grid item>
-        <img className={classes.img} src={mainImg} alt="Lairebaux" />
+        <Avatar
+        alt="Lairebaux"
+        className={classes.large}
+        src={mainImg}
+        />
       </Grid>
 
     </Grid>
